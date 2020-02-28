@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnXML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por XML"
+            android:onClick="miClick"/>
+
+        <Button
+            android:id="@+id/btnListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listener" />
+
+        <Button
+            android:id="@+id/btnAnon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clase Anónima" />
+
+        <Button
+            android:id="@+id/btnClase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clase" />
+    </LinearLayout>

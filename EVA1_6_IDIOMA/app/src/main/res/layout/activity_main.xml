@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seelcciona el idioma"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/rG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rB">
+
+        <RadioButton
+            android:id="@+id/rB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Español" />
+
+        <RadioButton
+            android:id="@+id/rB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="English" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/eT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Captura tu nombre"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Captura tus apellidos"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tV4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/eT3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Captura tu edad"
+        android:inputType="textPersonName" />
+</LinearLayout>

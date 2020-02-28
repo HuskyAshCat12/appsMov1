@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EVA1_6_IDIOMA</string>
+    <string name="idioma_es" translatable="false">Selecciona el idioma</string>
+    <string name="idioma_en" translatable="false">Choose the language</string>
+    <string name="espanol_es" translatable="false">Español</string>
+    <string name="ingles_es" translatable="false">Inglés</string>
+    <string name="espanol_en" translatable="false">Spanish</string>
+    <string name="ingles_en" translatable="false">English</string>
+    <string name="tVNom_es" translatable="false">Nombre</string>
+    <string name="tVNom_en" translatable="false">Name</string>
+    <string name="eTNom_es" translatable="false">Captura tu nombre</string>
+    <string name="eTNom_en" translatable="false">Type your name</string>
+    <string name="tVAp_es" translatable="false">Apellidos</string>
+    <string name="tVAp_en" translatable="false">Last name</string>
+    <string name="eTAP_es" translatable="false">Captura tu apellido</string>
+    <string name="eTAP_en" translatable="false">Type your last name</string>
+    <string name="tVE_es" translatable="false">Edad</string>
+    <string name="tVE_en" translatable="false">Age</string>
+    <string name="eTE_es" translatable="false">Captura tu edad</string>
+    <string name="eTE_en" translatable="false">Type your age</string>
+</resources>
